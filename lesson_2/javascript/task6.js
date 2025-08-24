@@ -19,7 +19,7 @@ const totalPriceProducts = totalPriceProduct1 + totalPriceProduct2 + totalPriceP
 document.write(`
             <div class='chekkk'>
                 <div class='logo'>
-                    <img src='/images/fl.png' alt='Логотип магазину' class='fl_logo'>
+                    <img src='./images/fl.png' alt='Логотип магазину' class='fl_logo'>
                 </div>
                 <p>Каса №2 Романенко О.В.</p><br>
                 <b><i>Товар 1</i></b><br> <div class='det'><span class='details'>${quantityProduct1} X ${priceProduct1.toFixed(2)}</span> <span class='sum'> ${totalPriceProduct1.toFixed(2)} A</span></div><br>
