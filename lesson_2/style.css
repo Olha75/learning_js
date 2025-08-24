@@ -1,0 +1,66 @@
+
+@import url("https://fonts.googleapis.com/css?family=Courier+Prime:regular,italic,700&display=swap");
+
+.tabl{
+    border: 2px dashed green;
+    padding:8px;
+    text-align: center;
+    background-color: rgb(245, 252, 250);
+    box-shadow: 2px 2px gray;
+}
+
+.tabl th, .tabl td {
+    border: 1px solid green;
+    padding: 8px;
+}
+
+.tabl th{
+    background-color: rgb(229, 253, 246);
+}
+
+
+.chekkk{
+    color:rgb(114, 116, 116);
+    border: 2px dashed rgb(59, 7, 203);
+    inline-size: 250px;
+    block-size: auto;
+    background-color: rgba(240, 242, 244, 0.901);
+    box-shadow: 2px 2px 2px rgb(143, 142, 142);
+    padding: 10px;
+    font-family: Courier, monospace;
+}
+
+.chekkk p{ 
+    font-size: 12px;
+}
+
+.logo{
+    inline-size:110px;
+    block-size: 60px;
+    margin:10px auto;
+    display: flex;
+    flex:0 1 100%;
+}
+
+.fl_logo{
+    object-fit: cover;
+    inline-size: 100%;
+    block-size: 100%;
+    aspect-ratio: 620/295;
+    filter: grayscale(100%);
+}
+
+.totalsum{
+    border-top: 2px dashed #999;
+}
+
+.det{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.item{
+    color:blue;
+    font-size: 16;
+}
