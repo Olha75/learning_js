@@ -3,18 +3,18 @@
 
     //Крок 1. Введення необхідних даних
         const nameDriverCategory:string=prompt('Введіть назву категорії водія: A, B чи C', 'А')as string;
-        let result:string;
+        let resultCategory:string;
     
     //Крок 2. Обчислення результатів та виведення
         switch(nameDriverCategory.toUpperCase())
         {
-            case 'A':result='Мотоцикл';
+            case 'A':resultCategory='Мотоцикл';
                 break;
-            case 'B':result='Легковий автомобіль';
+            case 'B':resultCategory='Легковий автомобіль';
                 break;
-            case 'C':result='Вантажний автомобіль';
+            case 'C':resultCategory='Вантажний автомобіль';
                 break;
-            default:result='Введена неправильна назва категорії водія. Спробуйте ще.';
+            default:resultCategory='Введена неправильна назва категорії водія. Спробуйте ще.';
             break;
         } 
-document.write(result)
+document.write(resultCategory)
