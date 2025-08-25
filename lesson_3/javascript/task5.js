@@ -1,11 +1,21 @@
 "use strict";
-//Дано кількість секунд, що пройшла від початку доби. Визначити скільки це годин і хвилин.
+//З клавіатури вводиться назва категорії водія (А-мотоцикл, В-легковий автомобіль, С-вантажний автомобіль). Вивести на екран назву транспортного засобу, яким він може керувати.
 //Крок 1. Введення необхідних даних
-const seconds = parseFloat(prompt('Введіть кількість секунд що пройшла від початку доби', '0'));
-const oneMinute = 60;
-const oneHour = 3600;
-//Крок 2. Обчислення результатів
-const hours = seconds / oneHour;
-const minutes = seconds / oneMinute;
-//Крок 3. Виведення
-document.write(`Якщо з початку доби пройшло ${seconds} секунд, то це прошло ${hours} годин  або ${minutes} хвилин`);
+const nameDriverCategory = prompt('Введіть назву категорії водія: A, B чи C', 'А');
+let result;
+//Крок 2. Обчислення результатів та виведення
+switch (nameDriverCategory.toUpperCase()) {
+    case 'A':
+        result = 'Мотоцикл';
+        break;
+    case 'B':
+        result = 'Легковий автомобіль';
+        break;
+    case 'C':
+        result = 'Вантажний автомобіль';
+        break;
+    default:
+        result = 'Введена неправильна назва категорії водія. Спробуйте ще.';
+        break;
+}
+document.write(result);
