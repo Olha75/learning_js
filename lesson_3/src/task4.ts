@@ -1,13 +1,31 @@
-     //Дано довжину у сантиметрах. Визначати скільки це метрів і кілометрів.
+     //З клавіатури вводиться вік людини. Вивести на екран ким він є (дитиною у садочку, школярем, студентом, працівником, пенсіонером).
 
     //Крок 1. Введення необхідних даних
-        const lengthCentimeters:number=parseFloat(prompt('Введіть довжину у сантиметрах', '0')as string)
-  
+        const agePerson:number=parseInt(prompt('Введіть вік людини від 1 до 100 років', '1')||'0')
+        // const childKindergarten:number=agePerson>=1 && agePerson<=5
+        // const schoolboy:number=agePerson>=6 && agePerson<=16
+        // const student:number=agePerson>=17 && agePerson<=25
+        // const employee:number=agePerson>=26 && agePerson<=60
+        // const pensioner:number=agePerson>=60 
+        // const notAccounted:number=agePerson<1 && agePerson>100
+        let result:string
     
     //Крок 2. Обчислення результатів
-        const lengthMeters:number=lengthCentimeters/100 /*де 100 це кількість см у 1 м*/        
-        const lengthKilometers:number=lengthCentimeters/100000 /*де 100000 це кількість см у 1 км*/  
-        
-    
-    //Крок 3. Виведення
-        document.write(`${lengthCentimeters} см це ${lengthMeters} м  або ${lengthKilometers} км`);
+        if(agePerson>=1 && agePerson<=5){
+            result=`Людина вік якої ${agePerson} це дитина у садочку`}
+            else 
+                if(agePerson>=6 && agePerson<=16){
+                result=`Людина вік якої ${agePerson} це школяр/ка`}
+            else 
+                if(agePerson>=17 && agePerson<=25){
+                result=`Людина вік якої ${agePerson} це студент/ка`}
+            else
+            if(agePerson>=26 && agePerson<=59){
+            result=`Людина вік якої ${agePerson} це працююча людина`}
+            else
+                if(agePerson>=60 && agePerson<=100){
+                result=`Людина вік якої ${agePerson} це пенсіонер`}
+            else
+                { result=`Вибачте, введено не вірне значення. Спробуйте ще.`
+        }   
+document.write(result)
