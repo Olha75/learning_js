@@ -1,11 +1,33 @@
 "use strict";
-//Знайти суму випадкового номера місяця (від 1 до 12) та випадкового номера дня (від 0 до 6).
+//З клавіатури вводиться номер місяця. Вивести до якої пори він відноситься
 //Крок 1. Введення необхідних даних
-// const randomMonthNumber:number=parseInt(prompt('Введіть номер місяця від 1 до 12', '1')as string)
-// const randomDayNumber:number=parseInt(prompt('Введіть номер дня від 0 до 6', '0')as string)
-const randomMonthNumber = 1 + Math.floor(Math.random() * 12);
-const randomDayNumber = Math.floor(Math.random() * 7);
+const numberMonth = parseInt(prompt('Введіть номер місяця від 1 до 12', '1'));
+let season;
 //Крок 2. Обчислення результатів
-const sumRandomNumbers = randomMonthNumber + randomDayNumber;
+switch (numberMonth) {
+    case 1: season = 'Зима';
+    case 2: season = 'Зима';
+    case 12:
+        season = 'Зима';
+        break;
+    case 3: season = 'Весна';
+    case 4: season = 'Весна';
+    case 5:
+        season = 'Весна';
+        break;
+    case 6: season = 'Літо';
+    case 7: season = 'Літо';
+    case 8:
+        season = 'Літо';
+        break;
+    case 9: season = 'Осінь';
+    case 10: season = 'Осінь';
+    case 11:
+        season = 'Осінь';
+        break;
+    default:
+        season = 'Номер місяця введено невірно. Спробуйте ще.';
+        break;
+}
+document.write(season);
 //Крок 3. Виведення
-document.write(` Номер місяця  <b class='item'>${randomMonthNumber} </b>+  номер дня <b class='item'>${randomDayNumber}</b> = <b class='item'>${sumRandomNumbers}</b>`);
