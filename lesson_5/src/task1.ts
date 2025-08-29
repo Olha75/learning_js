@@ -5,7 +5,7 @@
 for (let product = 1; product < 10; product++) {
      product =parseFloat(prompt('Введіть ціну продукту','0'))
 
-}
+}<h3>Product ${product} </h3>
 
 document.write(
 
