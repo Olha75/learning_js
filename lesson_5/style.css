@@ -1,10 +1,29 @@
 
 @import url("https://fonts.googleapis.com/css?family=Courier+Prime:regular,italic,700&display=swap");
 
-.product{
-margin-left: 15px;
+
+.body_product{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.num_product{
+    inline-size: 100px;
+}
+
+
+.product_list{
+margin: 10px;
 border-radius: 5px;
-padding:5px;
+padding: 10px;
 display: flex;
 box-shadow: 2px 2px 2px green;
+min-inline-size: 250px;
+
+}
+
+input::placeholder{
+    color:rgba(66, 156, 156, 0.726);
+    font-style: italic;
 }
