@@ -27,9 +27,9 @@ input::placeholder{
     color:rgba(66, 156, 156, 0.726);
     font-style: italic;
 }
-/* .tabl{
-    border: 2px dashed green;
-    padding:8px;
+.tabl{
+    border: 3px solid green;
+    /* padding:8px; */
     text-align: center;
     background-color: rgb(245, 252, 250);
     box-shadow: 2px 2px gray;
@@ -42,6 +42,6 @@ input::placeholder{
 
 .tabl th{
     background-color: rgb(229, 253, 246);
-} */
+}
 
 
