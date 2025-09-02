@@ -9,5 +9,5 @@
           for (let num2 = 1; num2 <=num1; num2++) {
                document.write(`<div class="books"><p>Розділ ${num1}, параграф ${num2}</p></div>`);
      }
-     
+}
 }
