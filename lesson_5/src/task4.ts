@@ -9,5 +9,29 @@
      //  Використати цикли і switch (для вибору зображення за номером).
 
 
+const randImgNum = 1 + Math.floor(Math.random() * 4);
+let imgSrc
+
+switch (randImgNum ) {
+     case 1:imgSrc = '../images/lemon.jpg';
+          
+          break;
+
+          case 2:imgSrc = '../images/orange.jpg';
+          
+          break;
+          case 3:imgSrc = '../images/grapes.jpg';
+          
+          break;
+          case 4:imgSrc = '../images/watermelon.jpg';
+          
+          break;
+    
+}
+document.write(`<img src=${imgSrc}><img src=${imgSrc}><img src=${imgSrc}>` )
+
+
+
+
 
 }
