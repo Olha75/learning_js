@@ -43,9 +43,7 @@ input::placeholder{
     background-color: rgb(229, 253, 246);
 }
 
-.container__books{
-     border-radius: 10px;
-}
+
 .books{
     display: flex;
     inline-size: 300px;
@@ -63,3 +61,15 @@ input::placeholder{
  margin-block-start: 5px;
 }
 
+.win{
+    color: rgb(249, 60, 186);
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 10px rgb(154, 154, 214);
+}
+
+.loser{
+      color: rgb(198, 240, 32);
+      background-color: black;
+
+}
