@@ -22,22 +22,22 @@ let priseWin=0
 
 
 switch (randImgNum ) {
-     case 1:imgSrc = '../images/lemon.jpg';
+     case 1:imgSrc = './images/lemon.jpg';
           imgName='lemon';
           priseWin=100;
           break;
 
-          case 2:imgSrc = '../images/orange.jpg';
+          case 2:imgSrc = './images/orange.jpg';
           imgName='orange';
           priseWin=200;
           break;
 
-          case 3:imgSrc = '../images/grapes.jpg';
+          case 3:imgSrc = './images/grapes.jpg';
           imgName='grapes';
           priseWin=500;
           break;
 
-          case 4:imgSrc = '../images/watermelon.jpg';
+          case 4:imgSrc = './images/watermelon.jpg';
           imgName='watermelon';
           priseWin=1000;
           break;
