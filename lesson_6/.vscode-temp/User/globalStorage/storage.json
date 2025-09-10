@@ -1,0 +1,83 @@
+{
+    "telemetry.machineId": "05de97d1b7687bcd85937ac1f2c7a46869fb0c6fa29ab09a44d87275b810e883",
+    "telemetry.sqmId": "{9629B8EB-7372-4AAA-924C-0870C8CC1B8A}",
+    "telemetry.devDeviceId": "d46d022c-09be-4fb1-b962-3a98afbd4d3f",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///b%3A/IT/js%20brula/homework_js_brula/learning_js/lesson_6"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1757528829775"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///b%3A/IT/js%20brula/homework_js_brula/learning_js/lesson_6": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1757528829775": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///b%3A/IT/js%20brula/homework_js_brula/learning_js/lesson_6",
+            "backupPath": "B:\\IT\\js brula\\homework_js_brula\\learning_js\\lesson_6\\.vscode-temp\\Backups\\add2ac3998c5728bbfef0daf83bdd4da",
+            "uiState": {
+                "mode": 0,
+                "x": -7,
+                "y": 11,
+                "width": 1201,
+                "height": 801
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "6376f2b63af39f2ddaa01d05ec02c53a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

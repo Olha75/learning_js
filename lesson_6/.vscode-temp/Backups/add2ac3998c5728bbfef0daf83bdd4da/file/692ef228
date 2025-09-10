@@ -1,0 +1,20 @@
+file:///b%3A/IT/js%20brula/homework_js_brula/learning_js/lesson_6/src/task1.ts {"mtime":1757528679735,"ctime":1756927275314,"size":522,"etag":"3epkej1c7gq","orphaned":false,"typeId":""}
+if (confirm('Почати тестування?')) {
+	//2.1. Відобразити трикутник за допомогою символів «о»
+
+	for (let rowNumber = 1; rowNumber <= 7; rowNumber++) {
+		let rowPyramid = '';
+		for (let spaces = 0; spaces < 7 - rowNumber; spaces++) {
+			rowPyramid += '/2009';
+		}
+
+		for (let symbol = 0; symbol < rowNumber; symbol++) {
+			rowPyramid += 'o';
+			if (symbol < rowNumber - 1) {
+				rowPyramid += '';
+			}
+		}
+
+		document.write(rowPyramid + '<br>');
+	}
+}

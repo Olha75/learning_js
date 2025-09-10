@@ -1,0 +1,7 @@
+2025-09-10 21:27:09.593 [error] Error: Error mutex already exists
+    at Ou.S (file:///C:/Users/Asus/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:125:18504)
+2025-09-10 21:27:09.692 [info] update#setState idle
+2025-09-10 21:27:39.694 [info] update#setState checking for updates
+2025-09-10 21:27:39.751 [info] update#setState idle
+2025-09-10 21:28:03.553 [info] Extension host with pid 28392 exited with code: 0, signal: unknown.
+2025-09-10 21:30:39.936 [info] Extension host with pid 27924 exited with code: 0, signal: unknown.
